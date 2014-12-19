@@ -1,0 +1,18 @@
+.html
+  %link{rel:"stylesheet", href:"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.css"}
+  %link{rel:"stylesheet", href:"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.css"}
+  %link{rel:"stylesheet", href:"./index.css"}
+
+  %script{src:"http://code.jquery.com/jquery-1.11.2.min.js"}
+  %script{src:"https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.7.0/underscore.js"}
+  %script{src:"https://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.1.2/backbone.js"}
+  %script{src:"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"}
+
+  .body
+    .container
+      .row
+        .h1.hello-style
+          Hello World
+
+    :javascript
+      $('.hello-style').css('color', 'green');
